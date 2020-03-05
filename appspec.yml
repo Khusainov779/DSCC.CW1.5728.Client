@@ -1,0 +1,16 @@
+version: 0.0
+os: windows
+files:
+  - source: \WebApp\
+    destination: c:\inetpub\wwwroot\
+  
+hooks:
+  BeforeInstall:
+    - location: \deletewebsite.bat
+      timeout: 180
+      runas: administrator
+  AfterInstall:
+    - location: \installwebsite.ps1
+      timeout: 180
+      runas: administrator
+
