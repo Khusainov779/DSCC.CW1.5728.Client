@@ -224,7 +224,7 @@ class Modal extends React.Component {
       price: this.props.data.price,
       description: this.props.data.description,
       index: this.props.index,
-      address: "https://localhost:44300"
+      address: "http://54.159.140.49"
     };
   }
 
