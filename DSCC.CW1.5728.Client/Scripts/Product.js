@@ -17,7 +17,7 @@
       currentPage: 1,
       categoriesPerPage: 10,
       categories: null,
-      address: "https://localhost:44300"
+      address: "http://54.159.140.49"
     };
   }
 
@@ -332,7 +332,7 @@ class CreateModal extends React.Component {
       price: 0,
       description: "",
       categories: null,
-      address: "https://localhost:44300"
+      address: "http://54.159.140.49"
     };
   }
 
