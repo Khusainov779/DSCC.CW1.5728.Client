@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: \DSCC.CW1.5728.Client\
-    destination: c:\inetpub\wwwroot\
+    destination: c:\inetpub\wwwroot\webtest\
   
 hooks:
   BeforeInstall:
